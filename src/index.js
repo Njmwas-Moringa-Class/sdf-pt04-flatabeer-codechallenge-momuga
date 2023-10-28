@@ -33,6 +33,7 @@
 
 			beerID.addEventListener('click', function(event)
 			{
+				event.preventDefault();
 				const beerName = document.getElementById('beer-name');
 				beerName.textContent = beer.name;
 				const beerImage = document.getElementById('beer-image');
@@ -88,7 +89,7 @@
 
 				descriptionForm.addEventListener('submit', function(event)
 				{
-
+					event.preventDefault();
 					const newDescription = document.getElementById('description');
 
 					descriptionContent = newDescription.value;
