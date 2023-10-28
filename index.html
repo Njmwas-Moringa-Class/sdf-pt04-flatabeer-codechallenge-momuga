@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -14,9 +15,7 @@
       <h1>FlataBeer</h1>
       <nav>
         <ul id="beer-list">
-          <li>Beer Name</li>
-          <li>Another Beer Name</li>
-          <li>And Another Beer Name</li>
+          
         </ul>
       </nav>
     </header>
@@ -33,7 +32,7 @@
           <em id="beer-description">Beer Description Goes Here</em>
         </p>
 
-        <form id="description-form">
+        <form id="description-form" method="PATCH">
           <label for="description">Edited Description:</label>
           <textarea id="description"></textarea>
           <button type="submit">Update Beer</button>
@@ -41,15 +40,14 @@
 
         <h3>Customer Reviews</h3>
         <ul id="review-list">
-          <li>Replace with actual reviews</li>
-          <li>From the server</li>
+
         </ul>
-        <form id="review-form">
+        <form id="review-form" method="PATCH">
           <label for="review">Your Review:</label>
           <textarea id="review"></textarea>
           <button type="submit">Add review</button>
         </form>
-      </div>
+      </div>      
     </main>
   </body>
 </html>

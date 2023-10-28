@@ -15,11 +15,12 @@
     {
       "id": 2,
       "name": "Pilsen Lager",
-      "description": "Our Unleash the Yeast series was an epic experiment into the differences in aroma and flavour provided by switching up your yeast. We brewed up a wort with a light caramel note and some toasty biscuit flavour, and hopped it with Amarillo and Centennial for a citrusy bitterness. Everything else is down to the yeast. Pilsner yeast ferments with no fruity esters or spicy phenols, although it can add a hint of butterscotch.",
+      "description": "Popular beer over the ages",
       "image_url": "https://images.punkapi.com/v2/4.png",
       "reviews": [
         "Spicy crab cakes, say what?!",
-        "My mum hates it"
+        "My mum hates it",
+        "Legendary"
       ]
     },
     {
